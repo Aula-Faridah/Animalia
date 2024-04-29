@@ -30,6 +30,8 @@
 		5236AA1B2BDF39C200A369F8 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA1A2BDF39C200A369F8 /* Bundle+Ext.swift */; };
 		5236AA1F2BDF43D800A369F8 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA1E2BDF43D800A369F8 /* AnimalModel.swift */; };
 		5236AA212BDF44BD00A369F8 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA202BDF44BD00A369F8 /* AnimalListItemView.swift */; };
+		5236AA242BDF504E00A369F8 /* OctagonImageFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA232BDF504E00A369F8 /* OctagonImageFrame.swift */; };
+		5236AA262BDF5D1B00A369F8 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA252BDF5D1B00A369F8 /* AnimalGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		5236AA1C2BDF3FE600A369F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5236AA1E2BDF43D800A369F8 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		5236AA202BDF44BD00A369F8 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		5236AA232BDF504E00A369F8 /* OctagonImageFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctagonImageFrame.swift; sourceTree = "<group>"; };
+		5236AA252BDF5D1B00A369F8 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,8 @@
 			children = (
 				5236AA142BDF37E900A369F8 /* CoverImageView.swift */,
 				5236AA202BDF44BD00A369F8 /* AnimalListItemView.swift */,
+				5236AA232BDF504E00A369F8 /* OctagonImageFrame.swift */,
+				5236AA252BDF5D1B00A369F8 /* AnimalGridItemView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -285,10 +291,12 @@
 				5236A9E52BDF328B00A369F8 /* ContentView.swift in Sources */,
 				5236AA152BDF37E900A369F8 /* CoverImageView.swift in Sources */,
 				5236AA1B2BDF39C200A369F8 /* Bundle+Ext.swift in Sources */,
+				5236AA242BDF504E00A369F8 /* OctagonImageFrame.swift in Sources */,
 				5236A9E32BDF328B00A369F8 /* AnimaliaApp.swift in Sources */,
 				5236AA182BDF38EE00A369F8 /* CoverImageModel.swift in Sources */,
 				5236AA1F2BDF43D800A369F8 /* AnimalModel.swift in Sources */,
 				5236AA212BDF44BD00A369F8 /* AnimalListItemView.swift in Sources */,
+				5236AA262BDF5D1B00A369F8 /* AnimalGridItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
