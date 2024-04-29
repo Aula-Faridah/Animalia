@@ -196,17 +196,12 @@
 		5236AA122BDF37B000A369F8 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				5236AA372BDF947500A369F8 /* Components */,
-				5236AA142BDF37E900A369F8 /* CoverImageView.swift */,
+				5236AA372BDF947500A369F8 /* SubViewDetail */,
 				5236AA202BDF44BD00A369F8 /* AnimalListItemView.swift */,
+				5236AA142BDF37E900A369F8 /* CoverImageView.swift */,
 				5236AA232BDF504E00A369F8 /* OctagonImageFrame.swift */,
 				5236AA252BDF5D1B00A369F8 /* AnimalGridItemView.swift */,
 				5236AA292BDF774800A369F8 /* AnimalDetailView.swift */,
-				5236AA2B2BDF7CB100A369F8 /* HeadingView.swift */,
-				5236AA2D2BDF7F5800A369F8 /* InsetGalleryView.swift */,
-				5236AA2F2BDF828A00A369F8 /* InsetFactView.swift */,
-				5236AA312BDF8B4700A369F8 /* InsetMapView.swift */,
-				5236AA352BDF946C00A369F8 /* ExternalWebLinkView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -229,11 +224,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		5236AA372BDF947500A369F8 /* Components */ = {
+		5236AA372BDF947500A369F8 /* SubViewDetail */ = {
 			isa = PBXGroup;
 			children = (
+				5236AA2B2BDF7CB100A369F8 /* HeadingView.swift */,
+				5236AA2D2BDF7F5800A369F8 /* InsetGalleryView.swift */,
+				5236AA2F2BDF828A00A369F8 /* InsetFactView.swift */,
+				5236AA312BDF8B4700A369F8 /* InsetMapView.swift */,
+				5236AA352BDF946C00A369F8 /* ExternalWebLinkView.swift */,
 			);
-			path = Components;
+			path = SubViewDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
