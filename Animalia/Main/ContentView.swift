@@ -56,7 +56,9 @@ struct ContentView: View {
                             .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                         
                         ForEach(animals) { animal in
+                            NavigationLink(destination: AnimalDetailView(animal: animal)){
                                 AnimalListItemView(animal: animal)
+                            }
                         }
                         
                     }
@@ -65,7 +67,9 @@ struct ContentView: View {
                     ScrollView(showsIndicators: false, content: {
                         LazyVGrid(columns: gridLayout, alignment: .center, spacing: 12, content: {
                             ForEach(animals) { animal in
-                                AnimalGridItemView(animal: animal)
+                                NavigationLink(destination: AnimalDetailView(animal: animal)){
+                                    AnimalGridItemView(animal: animal)
+                                }
                             }
                         })
                     })
