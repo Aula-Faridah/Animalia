@@ -17,6 +17,8 @@ struct ContentView: View {
     @State private var toolbarIcon: String = "square.grid.2x2"
     
     let animals: [AnimalModel] = Bundle.main.decode("animals.json")
+    
+    let haptics = UIImpactFeedbackGenerator(style: .medium)
 
     // MARK: -FUNCTION GRID SWITCH
     func gridSwitch() {
@@ -79,6 +81,7 @@ struct ContentView: View {
                             withAnimation(.easeIn) {
                                 print("List view is activated.")
                                 isGridViewActive = false
+                                haptics.impactOccurred()
                             }
                         } label: {
                             Image(systemName: "square.fill.text.grid.1x2")
@@ -92,6 +95,7 @@ struct ContentView: View {
                                 print("Grid view is activated.")
                                 isGridViewActive = true
                                 gridSwitch()
+                                haptics.impactOccurred()
                             }
                         } label: {
                             Image(systemName: toolbarIcon)
