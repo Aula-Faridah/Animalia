@@ -64,6 +64,14 @@ struct AnimalDetailView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 12))
             }
             .padding(8)
+            
+            // LINK
+            Group {
+                HeadingView(headingImage: "books.vertical", headingText: "Learn More")
+                
+                ExternalWebLinkView(animal: animal)
+            }
+            .padding(8)
         }
         .navigationTitle("Learn about \(animal.name)")
         .navigationBarTitleDisplayMode(.inline)
