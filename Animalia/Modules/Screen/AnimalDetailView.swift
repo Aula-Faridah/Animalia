@@ -60,6 +60,8 @@ struct AnimalDetailView: View {
             Group {
                 HeadingView(headingImage: "map", headingText: "National Parks")
                 
+                InsetMapView()
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
             }
             .padding(8)
         }
