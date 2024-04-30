@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5236A9E32BDF328B00A369F8 /* AnimaliaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236A9E22BDF328B00A369F8 /* AnimaliaApp.swift */; };
-		5236A9E52BDF328B00A369F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236A9E42BDF328B00A369F8 /* ContentView.swift */; };
+		5236A9E52BDF328B00A369F8 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236A9E42BDF328B00A369F8 /* BrowseView.swift */; };
 		5236A9E72BDF328C00A369F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236A9E62BDF328C00A369F8 /* Assets.xcassets */; };
 		5236A9EA2BDF328C00A369F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236A9E92BDF328C00A369F8 /* Preview Assets.xcassets */; };
 		5236A9F82BDF35A900A369F8 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 5236A9F32BDF35A900A369F8 /* animals.json */; };
@@ -45,7 +45,7 @@
 /* Begin PBXFileReference section */
 		5236A9DF2BDF328B00A369F8 /* Animalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5236A9E22BDF328B00A369F8 /* AnimaliaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaliaApp.swift; sourceTree = "<group>"; };
-		5236A9E42BDF328B00A369F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5236A9E42BDF328B00A369F8 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		5236A9E62BDF328C00A369F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5236A9E92BDF328C00A369F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5236A9F32BDF35A900A369F8 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		5236A9F12BDF329C00A369F8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				5236A9E42BDF328B00A369F8 /* ContentView.swift */,
+				5236A9E42BDF328B00A369F8 /* BrowseView.swift */,
 				5236AA272BDF60D000A369F8 /* MainView.swift */,
 			);
 			path = Main;
@@ -196,12 +196,8 @@
 		5236AA122BDF37B000A369F8 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				5236AA372BDF947500A369F8 /* SubViewDetail */,
-				5236AA202BDF44BD00A369F8 /* AnimalListItemView.swift */,
-				5236AA142BDF37E900A369F8 /* CoverImageView.swift */,
-				5236AA232BDF504E00A369F8 /* OctagonImageFrame.swift */,
-				5236AA252BDF5D1B00A369F8 /* AnimalGridItemView.swift */,
-				5236AA292BDF774800A369F8 /* AnimalDetailView.swift */,
+				5236AA3A2BE08D8600A369F8 /* Watch */,
+				5236AA392BE08D7700A369F8 /* Browse */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -234,6 +230,26 @@
 				5236AA352BDF946C00A369F8 /* ExternalWebLinkView.swift */,
 			);
 			path = SubViewDetail;
+			sourceTree = "<group>";
+		};
+		5236AA392BE08D7700A369F8 /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				5236AA372BDF947500A369F8 /* SubViewDetail */,
+				5236AA202BDF44BD00A369F8 /* AnimalListItemView.swift */,
+				5236AA142BDF37E900A369F8 /* CoverImageView.swift */,
+				5236AA232BDF504E00A369F8 /* OctagonImageFrame.swift */,
+				5236AA252BDF5D1B00A369F8 /* AnimalGridItemView.swift */,
+				5236AA292BDF774800A369F8 /* AnimalDetailView.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+		5236AA3A2BE08D8600A369F8 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Watch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +338,7 @@
 			files = (
 				5236AA302BDF828A00A369F8 /* InsetFactView.swift in Sources */,
 				5236AA2A2BDF774800A369F8 /* AnimalDetailView.swift in Sources */,
-				5236A9E52BDF328B00A369F8 /* ContentView.swift in Sources */,
+				5236A9E52BDF328B00A369F8 /* BrowseView.swift in Sources */,
 				5236AA342BDF8E1C00A369F8 /* CLLocation+Ext.swift in Sources */,
 				5236AA152BDF37E900A369F8 /* CoverImageView.swift in Sources */,
 				5236AA1B2BDF39C200A369F8 /* Bundle+Ext.swift in Sources */,
