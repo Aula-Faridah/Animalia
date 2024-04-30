@@ -18,13 +18,21 @@ struct MainView: View {
                 .tabItem {
                     Label("Watch", systemImage: "play.rectangle")
                 }
+            CameraView()
+                .tabItem {
+                    Label("Watch", systemImage: "camera")
+                }
             MapView()
                 .tabItem {
                     Label("Locations", systemImage: "map")
                 }
-            Text("Gallery")
+            GalleryView()
                 .tabItem {
-                    Label("Galler", systemImage: "photo")
+                    Label("Gallery", systemImage: "photo")
+                }
+            AlbumView()
+                .tabItem {
+                    Label("Photos", systemImage: "photo.on.rectangle.angled")
                 }
         }
     }

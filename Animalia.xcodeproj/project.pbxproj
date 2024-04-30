@@ -50,6 +50,9 @@
 		5236AA502BE0C5A900A369F8 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA4F2BE0C5A900A369F8 /* LocationModel.swift */; };
 		5236AA532BE0C6CE00A369F8 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA522BE0C6CE00A369F8 /* MapAnnotationView.swift */; };
 		5236AA552BE0CA1200A369F8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA542BE0CA1200A369F8 /* MapView.swift */; };
+		5236AA572BE0D97100A369F8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA562BE0D97100A369F8 /* CameraView.swift */; };
+		5236AA592BE0DA3700A369F8 /* DataScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA582BE0DA3700A369F8 /* DataScanner.swift */; };
+		5236AA5B2BE0DEF100A369F8 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA5A2BE0DEF100A369F8 /* AlbumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +101,9 @@
 		5236AA4F2BE0C5A900A369F8 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		5236AA522BE0C6CE00A369F8 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapAnnotationView.swift; path = Animalia/Modules/Screen/Gallery/MapAnnotationView.swift; sourceTree = SOURCE_ROOT; };
 		5236AA542BE0CA1200A369F8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5236AA562BE0D97100A369F8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5236AA582BE0DA3700A369F8 /* DataScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScanner.swift; sourceTree = "<group>"; };
+		5236AA5A2BE0DEF100A369F8 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +173,8 @@
 				5236AA482BE098F000A369F8 /* WatchView.swift */,
 				5236AA4A2BE09DEA00A369F8 /* GalleryView.swift */,
 				5236AA542BE0CA1200A369F8 /* MapView.swift */,
+				5236AA562BE0D97100A369F8 /* CameraView.swift */,
+				5236AA5A2BE0DEF100A369F8 /* AlbumView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -302,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				5236AA402BE0905C00A369F8 /* VideoPlayerHelper.swift */,
+				5236AA582BE0DA3700A369F8 /* DataScanner.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -415,13 +424,16 @@
 				5236AA412BE0905C00A369F8 /* VideoPlayerHelper.swift in Sources */,
 				5236AA552BE0CA1200A369F8 /* MapView.swift in Sources */,
 				5236AA1B2BDF39C200A369F8 /* Bundle+Ext.swift in Sources */,
+				5236AA592BE0DA3700A369F8 /* DataScanner.swift in Sources */,
 				5236AA282BDF60D000A369F8 /* MainView.swift in Sources */,
 				5236AA242BDF504E00A369F8 /* OctagonImageFrame.swift in Sources */,
 				5236A9E32BDF328B00A369F8 /* AnimaliaApp.swift in Sources */,
 				5236AA2C2BDF7CB100A369F8 /* HeadingView.swift in Sources */,
 				5236AA532BE0C6CE00A369F8 /* MapAnnotationView.swift in Sources */,
 				5236AA182BDF38EE00A369F8 /* CoverImageModel.swift in Sources */,
+				5236AA572BE0D97100A369F8 /* CameraView.swift in Sources */,
 				5236AA362BDF946C00A369F8 /* ExternalWebLinkView.swift in Sources */,
+				5236AA5B2BE0DEF100A369F8 /* AlbumView.swift in Sources */,
 				5236AA492BE098F000A369F8 /* WatchView.swift in Sources */,
 				5236AA1F2BDF43D800A369F8 /* AnimalModel.swift in Sources */,
 				5236AA4B2BE09DEA00A369F8 /* GalleryView.swift in Sources */,
@@ -569,6 +581,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Animalia/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app need permission to access your camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app need permission to access your Gallery";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -599,6 +613,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Animalia/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app need permission to access your camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app need permission to access your Gallery";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
