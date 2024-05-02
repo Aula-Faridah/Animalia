@@ -52,7 +52,7 @@
 		5236AA572BE0D97100A369F8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA562BE0D97100A369F8 /* CameraView.swift */; };
 		5236AA592BE0DA3700A369F8 /* DataScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA582BE0DA3700A369F8 /* DataScanner.swift */; };
 		5236AA5B2BE0DEF100A369F8 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AA5A2BE0DEF100A369F8 /* AlbumView.swift */; };
-		5236AAA52BE3592400A369F8 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 5236AAA42BE3592400A369F8 /* animals.json */; };
+		5236AAAB2BE36DE500A369F8 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 5236AAAA2BE36DE400A369F8 /* animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,7 +103,7 @@
 		5236AA562BE0D97100A369F8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		5236AA582BE0DA3700A369F8 /* DataScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScanner.swift; sourceTree = "<group>"; };
 		5236AA5A2BE0DEF100A369F8 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
-		5236AAA42BE3592400A369F8 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		5236AAAA2BE36DE400A369F8 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +192,7 @@
 		5236A9F72BDF35A900A369F8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				5236AAA42BE3592400A369F8 /* animals.json */,
+				5236AAAA2BE36DE400A369F8 /* animals.json */,
 				5236A9F42BDF35A900A369F8 /* covers.json */,
 				5236A9F52BDF35A900A369F8 /* locations.json */,
 				5236A9F62BDF35A900A369F8 /* videos.json */,
@@ -398,7 +398,7 @@
 				5236A9FA2BDF35A900A369F8 /* locations.json in Resources */,
 				5236A9EA2BDF328C00A369F8 /* Preview Assets.xcassets in Resources */,
 				5236AA0E2BDF35B400A369F8 /* ostrich.mp4 in Resources */,
-				5236AAA52BE3592400A369F8 /* animals.json in Resources */,
+				5236AAAB2BE36DE500A369F8 /* animals.json in Resources */,
 				5236AA082BDF35B400A369F8 /* elephant.mp4 in Resources */,
 				5236A9E72BDF328C00A369F8 /* Assets.xcassets in Resources */,
 				5236AA102BDF35B400A369F8 /* zebra.mp4 in Resources */,
